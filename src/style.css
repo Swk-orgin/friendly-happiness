@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'SourceSansPro';
+	src: url("./fonts/SourceSansPro-Regular.ttf");
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url("./fonts/Roboto-Regular.ttf")
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: #0d6efd;
+	text-decoration: none;
+}
+a:hover {
+	color: hotpink;
+	text-decoration: underline;
+}
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+.para {
+	font-family: 'SourceSansPro';
+	text-indent: 2em;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.tableContent {
+	width: 50px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 20px;
+}
+.heading {
+	margin-left: 10px;
+	font-family: 'Roboto';
+}
+.caption_src {
+	margin-left: 10px;
+}
+.card-margin-w {
+	margin-left: 5px;
+}
+.button-right-align {
+	text-align: right;
+	margin-right: 10px;
+}
+.fix-centre-cs {
+	width: 90%;
+	margin: auto;
+}
+.fix-centre-cc {
+	width: 90%;
+	margin: 1%;
+}
+
+
